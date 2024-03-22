@@ -8,10 +8,10 @@ body{
 /*-----------------header-------------------------------------------------------------*/
 
 
-.header-web{
+.header-logo{
 font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 font-family: "Raleway", sans-serif;
@@ -20,11 +20,7 @@ padding: 0;
 margin: 0;
 }
 .header-studio {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+  
     color: #2e2f42;
     margin: 0;
 }
@@ -70,7 +66,7 @@ font-weight: 400;
 /*-----------------/header-------------------------------------------------------------*/
 
 /*------------------section one-----------------------------------*/ 
-.section_one{
+.section-one{
     background: #2e2f42;
     height: 600px;
 }
@@ -78,7 +74,7 @@ font-weight: 400;
 .effective-solutions{
 font-weight: 700;
 font-size: 56px;
-line-height: 1.07143;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
@@ -86,6 +82,7 @@ color: #fff;
 
 
 .order-service{
+font-family: "Roboto", sans-serif
 display: flex;
 align-items: flex-start;
 justify-content: flex-start;
@@ -102,8 +99,16 @@ font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    cursor: pointer;
 }
 
+.order-service:hover {
+    background-color: #404BBF;
+}
+
+.order-service:focus {
+background-color: #404BBF;
+}
 
 
 
@@ -215,9 +220,10 @@ color: #2e2f42;
 .our-portfolio-h3{
     font-weight: 500;
         font-size: 20px;
-        line-height: 1.2;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .our-portfolio-p{
