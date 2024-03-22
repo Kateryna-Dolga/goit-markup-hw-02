@@ -82,7 +82,7 @@ color: #fff;
 
 
 .order-service{
-font-family: "Roboto", sans-serif
+font-family: "Roboto", sans-serif;
 display: flex;
 align-items: flex-start;
 justify-content: flex-start;
@@ -159,7 +159,7 @@ height: 260px;
 
 
 
-.section-three{
+.section-three-section{
     background: #f4f4fd;
     
 }
@@ -170,6 +170,7 @@ line-height: 1.11111;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
 }
 
 .section-three-li{
@@ -211,7 +212,8 @@ color: #2e2f42;
 .our-portfolio{
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
+text-transform: capitalize;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
@@ -220,7 +222,7 @@ color: #2e2f42;
 .our-portfolio-h3{
     font-weight: 500;
         font-size: 20px;
-        line-height: 1.11;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
         text-transform: capitalize;
