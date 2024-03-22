@@ -25,13 +25,20 @@ margin: 0;
     margin: 0;
 }
 
-.header-menu {
+.header-menu-a{
     list-style: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+
+.header-menu-a:hover {
+color:#404bbf;
+}
+.header-menu-a:focus {
+    color: #404bbf;
 }
 a { margin: 0;
     padding: 0;
@@ -61,6 +68,9 @@ font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    font-style: normal;
+}
+.address{
     font-style: normal;
 }
 /*-----------------/header-------------------------------------------------------------*/
@@ -166,7 +176,7 @@ height: 260px;
 .section-three-h2{
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
