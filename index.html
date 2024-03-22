@@ -5,27 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="<https://cdnjs.com/libraries/modern-normalize>" />
 </head>
 
 <body>
 
-    <header><!--1 головний блок header-->
+    <header class="header"><!--1 головний блок header-->
 
         
 
         <nav><!--головне меню-->
-            <a href="./index.html">WebStudio</a><!--логотип-->
+            <a href="./index.html">
+                
+                <p class= "header-web">WEB</p>
+                
+                <p class= "header-studio">STUDIO</p>
+            
+            </a><!--логотип-->
             <ul>
-                <li><a href="">Studio</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Contacts</a></li>
+                <li class="header-menu"><a href="">Studio</a></li>
+                <li class="header-menu"><a href="">Portfolio</a></li>
+                <li class="header-menu"><a href="">Contacts</a></li>
             </ul>
         </nav><!--/головне меню-->
 
         <address><!--контактна інформація-->
             <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li><!--електроонна пошта-->
-                <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li><!--телефон-->
+                <li><a class="email-tel" href="mailto:info@devstudio.com">info@devstudio.com</a></li><!--електроонна пошта-->
+                <li><a class="email-tel" href="tel:+110001111111">+11 (000) 111-11-11</a></li><!--телефон-->
             </ul>
         </address><!--/контактна інформація-->
 
@@ -33,75 +41,135 @@
 
     <main><!--2 головний блок main-->
 
-        <section><!--1 секція-->
+        <section class="section_one"><!--1 секція-->
 
-            <h1>Effective Solutions for Your Business</h1>
-            <button type="button">Order Service</button>
+            <h1 class="effective-solutions">Effective Solutions<br> for Your Business</h1>
+           
+            <button type="button" class="order-service">Order Service</button>
+        
 
-        </section><!--/1 секція-->
+        </section>
+        <!--/1 секція------------------------------------------------------->
 
-        <section><!--2 секція - переваги -->
-           <h2>Our goal is to identifyr</h2>
+        <section class="section_two"><!--2 секція - переваги -->
+           <h2 class="section-two-h2">Our goal </h2>
             <ul>
-                <li>
-                    <h3>Strategy</h3>
-                    <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.
+                <li class="section-two-li">
+                    <h3 class="section-two-h3">Strategy</h3>
+                    <p class="section-two-p">Our goal is to identify the business problem to walk away with the perfect and creative solution.
                     </p>
                 </li>
-                <li>
-                    <h3>Punctuality</h3>
-                    <p>Bring the key message to the brand's audience for the best price within the shortest possible
+                <li class="section-two-li">
+                    <h3 class="section-two-h3">Punctuality</h3>
+                    <p class="section-two-p">Bring the key message to the brand's audience for the best price within the shortest possible
                         time.</p>
                 </li>
-                <li>
-                    <h3>Diligence</h3>
-                    <p>Research and confirm brands that present the strongest digital growth opportunities and minimize
+                <li class="section-two-li">
+                    <h3 class="section-two-h3">Diligence</h3>
+                    <p class="section-two-p">Research and confirm brands that present the strongest digital growth opportunities and minimize
                         risk.</p>
                 </li>
-                <li>
-                    <h3>Technologies</h3>
-                    <p>Design practice focused on digital experiences. We bring forth a deep passion for
+                <li class="section-two-li">
+                    <h3 class="section-two-h3">Technologies</h3>
+                    <p class="section-two-p">Design practice focused on digital experiences. We bring forth a deep passion for
                         problem-solving.</p>
                 </li>
             </ul>
         </section><!--/2 секція - переваги -->
 
-        <section><!--3 секція - команда -->
-            <h2>Our Team</h2>
+        <section class="section-three"><!--3 секція - команда -->
+            <h2 CLASS="section-three-h2">Our Team</h2>
             <ul>
-                <li><img src="./images/img-3.jpg" width="264" alt="work-team">
-                    <h3>Mark Guerrero</h3>
-                    <p>Product Designer</p>
+                <li class="section-three-li">
+                    <img src="./images/img-3.jpg" width="264" alt="work-team">
+                    <h3 class="section-three-h3">Mark Guerrero</h3>
+                    <p class="section-three-p">Product Designer</p>
                 </li>
 
-                <li>
+                <li class="section-three-li">
                     <img src="./images/img-2.jpg" width="264" alt="work-team">
-                    <h3>Tom Ford</h3>
+                    <Tom class="section-three-h3">Tom Ford</h3>
 
-                    <p>Frontend Developer</p>
+                    <p class="section-three-p">Frontend Developer</p>
                 </li>
 
-                <li><img src="./images/img-1.jpg" width="264" alt="work-team">
-                    <h3>Camila Garcia</h3>
-                    <p>Marketing</p>
+                <li class="section-three-li">
+                    <img src="./images/img-1.jpg" width="264" alt="work-team">
+                    <h3 class="section-three-h3">Camila Garcia</h3>
+                    <p class="section-three-p">Marketing</p>
                 </li>
 
-                <li><img src="./images/img.jpg" width="264" alt="work-team">
-                    <h3>Daniel Wilson</h3>
-                    <p>UI Designer</p>
+                <li class="section-three-li">
+                    <img src="./images/img.jpg" width="264" alt="work-team">
+                    <h3 class="section-three-h3">Daniel Wilson</h3>
+                    <p class="section-three-p">UI Designer</p>
                 </li>
             </ul>
         </section><!--/3 секція - команда -->
 
-    </main><!--/2 головний блок main-->
 
 
-    <footer><!--3 головний блок footer-->
+<!--4 секція - Our Portfolio --------------------------------------------------------------------->
+        <section class="section_fourth">
 
-        <a href="./index.html">WebStudio</a> <!--логотип-->
-        <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+            <h2 class="our-portfolio">Our Portfolio</h2>
+            <ul>
+                <li class="our-portfolio-li">
+                    <img src="./images/img-4.png" width="360" alt="our-portfolio">
+                    <h3 class="our-portfolio-h3">Banking App</h3>
+                    <p class="our-portfolio-p">App</p>
+                </li>
+        
+                <li class="our-portfolio-li">
+                    <img src="./images/img-5.png" width="360" alt="our-portfolio">
+                    <h3 class="our-portfolio-h3">Cashless Payment</h3>
+                    <p class="our-portfolio-p">Marketing</p>
+                </li>
+        
+                <li class="our-portfolio-li">
+                    <img src="./images/img-6.png" width="360" alt="our-portfolio">
+                    <h3 class="our-portfolio-h3">Meditation App</h3>
+                    <p class="our-portfolio-p">App</p>
+                </li>
+        
+                <li class="our-portfolio-li">
+                    <img src="./images/img-7.png" width="360" alt="our-portfolio">
+                    <h3 class="our-portfolio-h3">Cashless Payment</h3>
+                    <p class="our-portfolio-p">Marketing</p>
+                </li>
 
-    </footer><!--|3 головний блок footer-->
+                <li class="our-portfolio-li">
+                    <img src="./images/img-8.png" width="360" alt="our-portfolio">
+                <h3 class="our-portfolio-h3">Screen Illustrations</h3>
+                    <p class="our-portfolio-p">Design</p>
+                </li>
+
+                <li class="our-portfolio-li">
+                    <img src="./images/img-9.png" width="360" alt="our-portfolio">
+                    <h3 class="our-portfolio-h3">Online Courses</h3>
+                    <p class="our-portfolio-p">Marketing</p>
+                </li>
+            </ul>
+        </section>
+    <!--4 секція - Our Portfolio --------------------------------------------------------------------->
+
+    </main>
+    <!--/2 головний блок main---------------------------------------------------------------->
+
+<!--3 головний блок footer---------------------------------------------------------------->
+    <footer class="footer">
+
+        <a href="./index.html"><!--логотип-->
+        
+            <p class="footer-web">WEB</p>
+        
+            <p class="footer-studio">STUDIO</p>
+        
+        </a> <!--/логотип-->
+        <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+
+    </footer>
+    <!--|3 головний блок footer-------------------------------------------------------------->
 
 
 </body>
