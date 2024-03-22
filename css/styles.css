@@ -1,6 +1,8 @@
 
 body{
     font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 /*-----------------header-------------------------------------------------------------*/
@@ -52,6 +54,10 @@ p{
 h1, h2, h3, h4, h5, h6{
     margin: 0;
         padding: 0;
+}
+span{
+    margin: 0;
+    padding: 0;
 }
 .email-tel{
 font-weight: 400;
@@ -237,35 +243,27 @@ background: #fff;
     height: 312px;
 }
 
-.footer-text{
-    font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #f4f4fd;
-        width: 264px;
+.footer-logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#4d5ae5;
+
 }
 
 .footer-studio{
-  
-font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #f4f4fd;
-    font-family: "Raleway", sans-serif;
-    
+    color: #f4f4fd; 
 }
 
-.footer-web{
-    font-weight: 700;
-        font-size: 18px;
-        line-height: 1.16667;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
-        font-family: "Raleway", sans-serif;
-
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    width: 264px;
 }
 /*------------------/footer-----------------------------------*/
